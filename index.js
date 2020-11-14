@@ -14,9 +14,9 @@ const messages = [];
 //while loop
 
  
-function CountDownVar(i) {
-  let CountDownVar=i ;
-  while (CountDownVar >=0) {
-    console.log (CountDownVar);
-    CountDownVar=CountDownVar-1;}
+function CountDown(i) {
+  let CountDown=i ;
+  while (CountDown >=0) {
+    console.log (CountDown);
+    CountDown=CountDown-1;}
   return; }

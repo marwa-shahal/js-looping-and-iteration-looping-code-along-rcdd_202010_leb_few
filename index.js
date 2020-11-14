@@ -5,10 +5,11 @@ const birth='birthday';
 
 
 
-function writecards(cards,event)  {
+function writecards(array,keyword)  { 
+  const messages=[];
   for ( let i=0; i< cards.length ; i++) 
-    { console.log (`Thank you, ${cards[i]}, for the wonderful ${event} gift!`);}
-    return ;}
+    { messages.push (`Thank you, ${cards[i]}, for the wonderful ${event} gift!`);}
+    return messages;}
 
 
 //while loop

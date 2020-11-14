@@ -8,7 +8,7 @@ writecards(cards,birth);
 function writecards(array,keyword)  { 
   const messages=[];
   for ( let i=0; i< cards.length ; i++) 
-    { messages.push (`Thank you, ${cards[i]}, for the wonderful ${keyword} gift!`);}
+    { messages.push (`Thank you, ${array[i]}, for the wonderful ${keyword} gift!`);}
     return messages;}
 
 

@@ -13,8 +13,9 @@ const messages = [];
 
 //while loop
 
- 
-function CountDown(i) {
-  while (i>=0) {
-    console.log (i--);}
+ function countDown(i){
+  while(i>=0){
+    console.log(i--);
+  }
 }
+countDown(10);

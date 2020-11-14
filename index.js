@@ -2,11 +2,13 @@
 
 
 
-function writecards(array,keyword)  { 
-  const messages=[];
-  for ( let i=0; i< cards.length ; i++) 
-    { messages.push (`Thank you, ${array[i]}, for the wonderful ${keyword} gift!`);}
-    return messages (array);}
+function writeCards(array, event) {
+const messages = [];
+  for (let i = 0; i < array.length; i++) {
+    messages.push(Thank you, ${array[i]}, for the wonderful ${keyword} gift!);
+  }
+  return messages;
+}
 
 
 //while loop

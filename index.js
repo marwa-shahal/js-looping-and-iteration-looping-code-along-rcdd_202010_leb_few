@@ -1,9 +1,6 @@
 //for loop
-const cards=['Ada', 'Brendan', 'Ali'];
-const birth='birthday';
 
 
-writecards(cards,birth);
 
 function writecards(array,keyword)  { 
   const messages=[];
@@ -13,7 +10,7 @@ function writecards(array,keyword)  {
 
 
 //while loop
-CountDown(10);
+
  
 function CountDown(i) {
   let CountDownVar=i ;
